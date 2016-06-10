@@ -1,0 +1,3 @@
+-- Android Emulator version --
+
+Android 2.2 ApiLevel - 8
