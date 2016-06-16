@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.preghealth.lmnop.pregnancyhealth.Share"
+    tools:showIn="@layout/activity_share">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Share scores with your loved ones"
+        android:textSize="@dimen/text_medium"
+        android:textColor="@color/colorAccent"
+        android:textStyle="italic"
+        android:padding="@dimen/padding_medium"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:hint="Name"
+        android:textSize="@dimen/text_medium"
+        android:textColorHint="@color/grey"
+        android:ems="10"
+        android:id="@+id/et_normal_text" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        android:textSize="@dimen/text_medium"
+        android:hint="Email"
+        android:textColorHint="@color/grey"
+        android:ems="10"
+        android:id="@+id/et_email_address" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add Contact"
+        android:textSize="@dimen/text_medium"
+        android:id="@+id/btn_submit" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <TextView
+        android:id="@+id/contactmsg1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Your added contacts"
+        android:textSize="@dimen/text_medium"
+        android:textColor="@color/colorPrimary"
+        android:textStyle="italic"
+        android:paddingTop="@dimen/padding_large"
+        />
+
+    <TextView
+        android:id="@+id/contactmsg2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/contactmsg1"
+        android:text="Long press contact to delete"
+        android:textSize="@dimen/text_small"
+        android:textColor="@color/grey"
+        android:textStyle="italic"
+        android:paddingBottom="@dimen/padding_medium"/>
+
+        <ImageView
+            android:id="@+id/btn_refresh"
+            android:layout_width="@dimen/refresh_size"
+            android:layout_height="@dimen/refresh_size"
+            android:paddingRight="@dimen/padding_large"
+            android:layout_centerVertical="true"
+            android:src="@drawable/ic_refresh_light"
+            android:layout_alignParentRight="true"/>
+
+    </RelativeLayout>
+
+
+    <ListView
+        android:id="@+id/contactsview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></ListView>
+
+</LinearLayout>

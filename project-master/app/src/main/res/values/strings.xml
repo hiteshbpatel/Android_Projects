@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Pregnancy Health</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_chart_progress">ChartProgress</string>
+    <string name="title_activity_chart">Chart</string>
+    <string name="title_activity_share">Share</string>
+    <string name="title_activity_customize">Customize</string>
+
+    <string name="title_activity_fullscreen">Pregnancy Health</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+</resources>

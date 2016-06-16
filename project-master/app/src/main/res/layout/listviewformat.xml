@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="@dimen/padding_medium"
+    android:paddingBottom="@dimen/padding_medium"
+    android:paddingLeft="@dimen/padding_medium"
+    android:paddingRight="@dimen/padding_medium">
+
+    <ImageView
+        android:id="@+id/imageview"
+        android:layout_marginLeft="10dp"
+        android:layout_width="@dimen/cornerside"
+        android:layout_height="@dimen/cornerside"
+        android:foregroundGravity="center_horizontal"
+        />
+
+    <TextView
+        android:id="@+id/tv_name"
+        android:layout_width="@dimen/cornerside_text"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:layout_below="@+id/imageview"
+        android:textSize="@dimen/text_small"
+        android:textColor="@color/text"
+        android:text="" />
+
+    <SeekBar
+        android:id="@+id/sb"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="@dimen/padding_medium"
+        android:paddingRight="@dimen/padding_medium"
+        android:layout_toRightOf="@+id/imageview"
+        android:layout_toLeftOf="@+id/displayvalue"
+        android:layout_centerVertical="true"
+        android:progressTint="@color/colorAccent"
+        android:thumbTint="@color/colorAccent"
+        />
+
+
+    <TextView
+        android:id="@+id/displayvalue"
+        android:layout_width="@dimen/cornerside_text"
+        android:layout_height="wrap_content"
+        android:gravity="right"
+        android:paddingRight="@dimen/padding_medium"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:textSize="@dimen/text_XL"
+        android:textColor="@color/colorAccent"
+        />
+
+    <TextView
+        android:id="@+id/tv_unit"
+        android:layout_width="@dimen/cornerside_text"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:gravity="right"
+        android:layout_below="@+id/displayvalue"
+        android:layout_alignParentRight="true"
+        android:text=""
+        android:textSize="@dimen/text_small"
+        android:textColor="@color/text"
+        />
+
+
+</RelativeLayout>

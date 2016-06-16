@@ -1,0 +1,27 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.preghealth.lmnop.pregnancyhealth.MainActivity">
+
+    <item
+        android:id="@+id/sharescores"
+        android:orderInCategory="102"
+        android:title="Share Scores"
+        android:icon="@drawable/group"
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:id="@+id/chartprogress"
+        android:orderInCategory="103"
+        android:title="Chart Progress"
+        android:icon="@drawable/linegraph"
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:id="@+id/home"
+        android:orderInCategory="101"
+        android:title="Home"
+        android:icon="@drawable/home"
+        app:showAsAction="always"/>
+
+</menu>
