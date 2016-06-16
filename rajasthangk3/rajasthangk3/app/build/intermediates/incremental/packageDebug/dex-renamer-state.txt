@@ -1,7 +1,0 @@
-#Thu Jun 16 03:15:39 PDT 2016
-base.0=C\:\\Users\\Hitesh-PC\\Desktop\\rajasthangk3\\rajasthangk3\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_0cca5d458978622fc73e02ef7f147118cd927328
-renamed.1=classes.dex
-renamed.0=classes2.dex
-file.1=C\:\\Users\\Hitesh-PC\\Desktop\\rajasthangk3\\rajasthangk3\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_7e09ecc1ab12e4c1222f71687f017e64a606838b\\classes.dex
-base.1=C\:\\Users\\Hitesh-PC\\Desktop\\rajasthangk3\\rajasthangk3\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_7e09ecc1ab12e4c1222f71687f017e64a606838b
-file.0=C\:\\Users\\Hitesh-PC\\Desktop\\rajasthangk3\\rajasthangk3\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_0cca5d458978622fc73e02ef7f147118cd927328\\classes.dex
