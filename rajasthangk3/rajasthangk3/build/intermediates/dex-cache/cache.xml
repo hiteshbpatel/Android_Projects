@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="C:\Users\Hitesh-PC\Desktop\rajasthangk3\rajasthangk3\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="false"
+        revision="23.0.3"
+        sha1="67bd36ee9340ec7c254108936ad16b24bed160cc">
+        <dex dex="C:\Users\Hitesh-PC\Desktop\rajasthangk3\rajasthangk3\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-23.4.0_8d06dc78ce893ea18ef2fff5c814930e1abf02d7\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Hitesh-PC\Desktop\rajasthangk3\rajasthangk3\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="false"
+        revision="23.0.3"
+        sha1="7be3fa0e596a3854666b9d09f0b6a8547e46b5a9">
+        <dex dex="C:\Users\Hitesh-PC\Desktop\rajasthangk3\rajasthangk3\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_7e09ecc1ab12e4c1222f71687f017e64a606838b\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Hitesh-PC\Desktop\rajasthangk3\rajasthangk3\app\build\intermediates\exploded-aar\com.google.firebase\firebase-common\9.0.2\jars\classes.jar"
+        jumboMode="true"
+        optimize="false"
+        revision="23.0.3"
+        sha1="9919563cffd8e3732e944d3c437d4b9575a08448">
+        <dex dex="C:\Users\Hitesh-PC\Desktop\rajasthangk3\rajasthangk3\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-common-9.0.2_3c7b321e43caa9ed0896ac34aad3bcaac3ca0aff\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Hitesh-PC\Desktop\rajasthangk3\rajasthangk3\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads\9.0.2\jars\classes.jar"
+        jumboMode="true"
+        optimize="false"
+        revision="23.0.3"
+        sha1="f4fb6981392ca7680d02fd57d26d6124c141d9d9">
+        <dex dex="C:\Users\Hitesh-PC\Desktop\rajasthangk3\rajasthangk3\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-ads-9.0.2_b019385b4772f533e3a853ef3b82eb386d77100c\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Hitesh-PC\Desktop\rajasthangk3\rajasthangk3\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\9.0.2\jars\classes.jar"
+        jumboMode="true"
+        optimize="false"
+        revision="23.0.3"
+        sha1="94d9cedd04b124aed044ac71c451a292856d854c">
+        <dex dex="C:\Users\Hitesh-PC\Desktop\rajasthangk3\rajasthangk3\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-base-9.0.2_b84a020c43845e9106bb4b937e87bd8d677799e4\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Hitesh-PC\Desktop\rajasthangk3\rajasthangk3\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="false"
+        revision="23.0.3"
+        sha1="c2c594cace5d83a3227b2b6e658ecbfd586d3ed9">
+        <dex dex="C:\Users\Hitesh-PC\Desktop\rajasthangk3\rajasthangk3\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-vector-drawable-23.4.0_fa4528d4740cd55c024cb8394d3d61f7819d4c14\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Hitesh-PC\Desktop\rajasthangk3\rajasthangk3\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\9.0.2\jars\classes.jar"
+        jumboMode="true"
+        optimize="false"
+        revision="23.0.3"
+        sha1="4022261eeea0d92eb2997a68d2c1f084a16abad9">
+        <dex dex="C:\Users\Hitesh-PC\Desktop\rajasthangk3\rajasthangk3\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-basement-9.0.2_db0a2c14949f9a7ba89fbac7a82e2a21ca5a6121\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Hitesh-PC\Desktop\rajasthangk3\rajasthangk3\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\jars\libs\internal_impl-23.4.0.jar"
+        jumboMode="true"
+        optimize="false"
+        revision="23.0.3"
+        sha1="ea3c07504d2c8f4b13aa17c45c1b68ed9c1c3674">
+        <dex dex="C:\Users\Hitesh-PC\Desktop\rajasthangk3\rajasthangk3\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-23.4.0_b793aabf25597994ce6599af7c941f24ce5cc29a\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Hitesh-PC\Desktop\rajasthangk3\rajasthangk3\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-tasks\9.0.2\jars\classes.jar"
+        jumboMode="true"
+        optimize="false"
+        revision="23.0.3"
+        sha1="aec1bc54964a85d851c2c1b1cb7f90f7dbd755ab">
+        <dex dex="C:\Users\Hitesh-PC\Desktop\rajasthangk3\rajasthangk3\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-tasks-9.0.2_9d48e2e2ff2cb779b82abc16c7c8089d31497000\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Hitesh-PC\Desktop\rajasthangk3\rajasthangk3\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="false"
+        revision="23.0.3"
+        sha1="b0bf40fe437670f1a02aadbba63e59be623feedb">
+        <dex dex="C:\Users\Hitesh-PC\Desktop\rajasthangk3\rajasthangk3\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_0cca5d458978622fc73e02ef7f147118cd927328\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Hitesh-PC\Desktop\rajasthangk3\rajasthangk3\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\23.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="false"
+        revision="23.0.3"
+        sha1="de4db3785756bfb0915a9f59a9b3f2fea7407be4">
+        <dex dex="C:\Users\Hitesh-PC\Desktop\rajasthangk3\rajasthangk3\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-animated-vector-drawable-23.4.0_80c314dcb34ea10018473bdd480361d810a12032\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Hitesh-PC\AppData\Local\Android\sdk1\extras\android\m2repository\com\android\support\support-annotations\23.4.0\support-annotations-23.4.0.jar"
+        jumboMode="true"
+        optimize="false"
+        revision="23.0.3"
+        sha1="ffbe55fdb2bb456b1485831706a9eac3300bb6b8">
+        <dex dex="C:\Users\Hitesh-PC\Desktop\rajasthangk3\rajasthangk3\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-23.4.0_23e0710c6627fcef0a33fe503a3db4d07e6b3415\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Hitesh-PC\Desktop\rajasthangk3\rajasthangk3\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="false"
+        revision="23.0.3"
+        sha1="548f06de403a9409f00554b3ee12a9fdea0e236c">
+        <dex dex="C:\Users\Hitesh-PC\Desktop\rajasthangk3\rajasthangk3\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-23.4.0_8ec6cca3e62cd15cf30ed628235cc2a4db564f72\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Hitesh-PC\Desktop\rajasthangk3\rajasthangk3\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads-lite\9.0.2\jars\classes.jar"
+        jumboMode="true"
+        optimize="false"
+        revision="23.0.3"
+        sha1="b8e0372ca6dc89ac4fe22b76eeea4f68ece435b8">
+        <dex dex="C:\Users\Hitesh-PC\Desktop\rajasthangk3\rajasthangk3\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-ads-lite-9.0.2_2a3531470d18a00f895518c0889ae93775ced293\classes.dex" />
+    </item>
+
+</items>

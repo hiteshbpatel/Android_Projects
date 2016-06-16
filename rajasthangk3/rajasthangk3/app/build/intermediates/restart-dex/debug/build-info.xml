@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<instant-run
+    abi="x86"
+    api-level="23"
+    density="xhdpi"
+    format="7"
+    timestamp="16646663888484"
+    token="2783445503652871474"
+    verifier="FIELD_ADDED" >
+
+    <task
+        name="javac"
+        duration="605" />
+    <task
+        name="instant-run-dex"
+        duration="0" />
+    <task
+        name="instant-run-transform"
+        duration="239" />
+    <task
+        name="verifier"
+        duration="68" />
+
+    <artifact
+        location="C:\Users\Hitesh-PC\Desktop\rajasthangk3\rajasthangk3\app\build\intermediates\res\resources-debug.ap_"
+        type="RESOURCES" />
+    <artifact
+        location="C:\Users\Hitesh-PC\Desktop\rajasthangk3\rajasthangk3\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_7\classes.dex"
+        type="DEX" />
+
+    <build timestamp="15716634971389" >
+        <artifact
+            location="C:\Users\Hitesh-PC\Desktop\rajasthangk3\rajasthangk3\app\build\outputs\apk\app-debug.apk"
+            type="MAIN" />
+    </build>
+    <build timestamp="16532732608602" >
+        <artifact
+            location="C:\Users\Hitesh-PC\Desktop\rajasthangk3\rajasthangk3\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_4\classes.dex"
+            type="DEX" />
+    </build>
+    <build
+        timestamp="16646663888484"
+        verifier="FIELD_ADDED" >
+        <artifact
+            location="C:\Users\Hitesh-PC\Desktop\rajasthangk3\rajasthangk3\app\build\intermediates\res\resources-debug.ap_"
+            type="RESOURCES" />
+        <artifact
+            location="C:\Users\Hitesh-PC\Desktop\rajasthangk3\rajasthangk3\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_7\classes.dex"
+            type="DEX" />
+    </build>
+
+</instant-run>
