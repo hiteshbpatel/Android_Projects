@@ -1,0 +1,25 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"    
+     >
+     <EditText
+         android:id="@+id/editText"
+         android:layout_width="250dp"
+         android:layout_marginTop="50dp"
+         android:layout_marginLeft="5dp"
+         android:layout_height="wrap_content"
+         android:editable="false" >
+</EditText>
+     
+     <ImageButton
+         android:id="@+id/imageButton1"
+         android:layout_width="wrap_content"
+		 android:layout_height="wrap_content"
+         android:layout_alignBottom="@+id/editText"
+         android:layout_toRightOf="@+id/editText"
+         android:contentDescription="@string/selectdate"
+         android:cropToPadding="true"
+         android:src="@drawable/calendar_icon" />
+</RelativeLayout>
