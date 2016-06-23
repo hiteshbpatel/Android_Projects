@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.zaikatalash.dashboard.TodaySpecial">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="Please complete this form"
+        android:id="@+id/cuisineCategory" />
+
+    <HorizontalScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/horizontalScrollView"
+        android:layout_weight="0.28"
+        android:layout_below="@+id/cuisineCategory"
+        android:layout_centerHorizontal="true">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/cuisineCategory"
+            android:layout_alignParentStart="true"
+            android:gravity="center_horizontal">
+
+            <!-- Register Type Section -->
+
+            <RadioGroup
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+
+                android:layout_alignParentStart="true"
+                android:gravity="center_horizontal">
+
+                <!-- Indian Cuisine Label -->
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Vegetarian"
+                    android:id="@+id/indianCuisineButton"
+                    android:checked="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentStart="true"
+                    android:textColor="#a80000"
+                    android:layout_toStartOf="@+id/cuisineCategory" />
+
+                <!-- World Cuisine Label -->
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Non-Vegetarian"
+                    android:id="@+id/worldCuisineButton"
+                    android:textColor="#a80000"
+                    android:checked="false"
+                    android:layout_alignParentBottom="true"
+                    android:layout_toEndOf="@+id/indianCuisineButton" />
+
+
+            </RadioGroup>
+        </RelativeLayout>
+    </HorizontalScrollView>
+
+    <Spinner
+        android:id="@+id/spinnerCuisine"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/cuisine_array"
+        android:layout_below="@+id/textView"
+        android:layout_alignParentStart="true"
+        android:spinnerMode="dropdown"
+        android:layout_marginTop="45dp" />
+
+    <Spinner
+        android:id="@+id/spinnerCategory"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/cuisine_indian"
+        android:layout_below="@+id/spinnerCuisine"
+        android:layout_alignParentStart="true"
+        android:spinnerMode="dropdown" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="setDate"
+        android:text="@string/date_button_set"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/button1"
+        android:layout_marginTop="166dp"
+        android:layout_toLeftOf="@+id/button1"
+        android:text="@string/date_view_set"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/button1"
+        android:layout_below="@+id/textView2"
+        android:layout_marginTop="72dp"
+        android:text="@string/date_selected"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+</RelativeLayout>

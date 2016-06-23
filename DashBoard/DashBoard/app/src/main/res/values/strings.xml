@@ -1,0 +1,73 @@
+<resources>
+    <string name="app_name">DashBoard</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_settings">Settings</string>
+
+    <string-array name="cuisine_array">
+        <item>Select Cuisine</item>
+        <item>Indian Cuisine</item>
+        <item>World Cuisine</item>
+        <item>Desserts</item>
+        <item>Snacks</item>
+        <item>Salads</item>
+    </string-array>
+
+    <string-array name="cuisine_select">
+        <item>Select Category</item>
+    </string-array>
+
+    <string-array name="cuisine_indian">
+        <item>Awadhi</item>
+        <item>Bengali</item>
+        <item>Bohri</item>
+        <item>Goan</item>
+        <item>Hyderabadi</item>
+        <item>Kashmiri</item>
+        <item>North Indian</item>
+        <item>Rajasthani</item>
+        <item>South Indian</item>
+        <item>Parsri</item>
+        <item>Maharashtrian</item>
+    </string-array>
+
+    <string-array name="cuisine_world">
+        <item>Burmese</item>
+        <item>Chinese</item>
+        <item>European</item>
+        <item>Greek</item>
+        <item>Italian</item>
+        <item>Japanese</item>
+        <item>Korean</item>
+        <item>Lebanese</item>
+        <item>Mexican</item>
+        <item>Thai</item>
+    </string-array>
+
+    <string-array name="cuisine_desserts">
+        <item>Cakes</item>
+        <item>Chocolates</item>
+        <item>Cookies</item>
+        <item>Indian Desserts</item>
+        <item>Western Desserts</item>
+    </string-array>
+
+    <string-array name="cuisine_snacks">
+        <item>Pizza</item>
+        <item>Burgers</item>
+        <item>Macroni/Pasta</item>
+        <item>Soups</item>
+    </string-array>
+
+    <string-array name="cuisine_salads">
+        <item>Russian</item>
+        <item>Continental</item>
+        <item>Indian Salad</item>
+        <item>others</item>
+    </string-array>
+
+    <string name="date_label_set">Press the button to set the date</string>
+    <string name="date_button_set">Set Date</string>
+    <string name="date_view_set">The Date is: </string>
+    <string name="date_selected"></string>
+</resources>
